@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    border: 1px solid rgb(255, 141, 47);
+    background-color: rgb(244, 249, 253);
+    padding: 10px;
+}
+
+.hd_container{
+    border: 1px dashed rgb(0, 255, 21);
+    width: 375px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo{
+    margin: 16px auto;
+}
+
+.individuals{
+    font-size: 16px;
+    font-weight: 700;
+    width: 327px;
+    height: 30px;
+}
+
+.inspire{
+    color: rgb(175, 174, 174);
+    font-weight: 100;
+    width: 327px;
+    height: 50px;
+}
+
+.form{
+    background-color: rgb(255, 255, 255);
+}
+
+.form_box1{
+    width: 295px;
+    height: 72px;
+}
+
+.label{
+    margin: 10px auto;
+}
+
+.first_name{
+    padding: 7px;
+    border: 1px solid rgb(91, 184, 247);
+    border-radius: 3px;
+}
