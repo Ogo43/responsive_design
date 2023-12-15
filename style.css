@@ -6,7 +6,6 @@
 }
 
 .container{
-    border: 1px solid red;
     background-color: #f0f8ff;
     padding: 16px;
 }
@@ -43,8 +42,10 @@
 .form{
     background-color: #ffffff;
     width: 327px;
-    height: 670px;
+    height: 730px;
     padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .form_box1{
@@ -135,10 +136,12 @@
 }
 
 .agreement{
-    width: 316px;
+    width: 300px;
     height: 50px;
     font-size: 12px;
-    margin-top: 16px;
+    margin: 14px 0px 0px 15px;
+    text-align: center;
+    line-height: 22px;
 }
 
 .sign{
@@ -168,11 +171,11 @@
     }
 
     .sub_container{
-        margin-left: 200px;
+        margin-left: 170px;
     }
     
     .section{
-        margin-left: 200px;
+        margin-left: 170px;
     }
 
     .wrapper_one{
@@ -195,8 +198,15 @@
     .form{
         border-radius: 10px;
         margin-bottom: 20px;
+        height: 735px;
     }
     
+    .agreement{
+        text-align: center;
+        margin-left: 15px;
+        width: 300px;
+        line-height: 22px;
+    }
     
 }
 
@@ -252,9 +262,7 @@
 
     .form{
         width: 600px;
-        height: 480px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        height: 520px;
     }
     
     .form_box1{
@@ -315,7 +323,7 @@
     .btn_submit{
         width: 551px;
         height: 42px;
-        margin: 10px 20px;
+        margin: 0px 20px;
         font-size: 14px;
     }
 
@@ -323,11 +331,8 @@
         width: 600px;
         height: 45px;
         font-size: 12px;
-        margin: 0px;
+        margin: 5px;
         padding-left: 30px;
-        background-color: #ffffff;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
     }
 
 }
